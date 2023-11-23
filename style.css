@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    background-color: #011F3F;
+  }
+  
+  #Titolo {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin:  5%;
+    color: #FEF2BF;
+  }
+  #primaRiga{
+   display: flex;
+   justify-content: center;
+   gap: 10%;
+  }
+ 
+  .cerchio_1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 10px solid black;
+    border-radius: 50%;
+  }
+  .cerchio_2{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 10px solid black;
+    border-radius: 50%;
+  }
+  #secondaRiga{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+   }
+  .cerchio_3{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 10px solid black;
+    border-radius: 50%;
+  }
+  .cerchio_4{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 10px solid black;
+    border-radius: 50%;
+  }
+  .pressed{
+    border: 10px solid grey;
+     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  .gameOver{
+    background-color: red;
+  }
